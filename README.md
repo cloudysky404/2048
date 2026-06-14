@@ -6,7 +6,10 @@ A browser-based 2048 puzzle game built with HTML, CSS & JavaScript.
 
 ## Preview 
 
-https://github.com/user-attachments/assets/5b43cda0-c41d-4221-a78a-5ac5be49b0d1\
+
+
+https://github.com/user-attachments/assets/f736b39a-cae7-43cf-be5c-b23cc84002a2
+
 
 
 
