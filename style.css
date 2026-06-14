@@ -4,11 +4,22 @@ body {
 }
 
 
-
 hr {
     width: 500px;
 }
 
+
+#restart {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+
+#message {
+    height: 30px;
+}
 
 
 #board {
@@ -19,10 +30,10 @@ hr {
     border: 6px solid #bbada0;
 
     margin: 0 auto;
+
     display: flex;
     flex-wrap: wrap;
 }
-
 
 
 .tile {
@@ -32,11 +43,11 @@ hr {
 
     font-size: 40px;
     font-weight: bold;
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 
 
 .x2 {
@@ -45,12 +56,10 @@ hr {
 }
 
 
-
 .x4 {
     background-color: #ece0ca;
-    color: #727371;                        
+    color: #727371;
 }
-
 
 
 .x8 {
@@ -59,26 +68,22 @@ hr {
 }
 
 
-
 .x16 {
     background-color: #f59575;
     color: white;
 }
 
 
-
 .x32 {
     background-color: #f57c5f;
-    color: white;  
-}
-
-
-
-.x64{
-    background-color: #f65d3b;
     color: white;
 }
 
+
+.x64 {
+    background-color: #f65d3b;
+    color: white;
+}
 
 
 .x128 {
@@ -87,12 +92,10 @@ hr {
 }
 
 
-
 .x256 {
-    background-color: #edcc63;
+    background-color: #3dcc63;
     color: white;
 }
-
 
 
 .x512 {
@@ -101,12 +104,10 @@ hr {
 }
 
 
-
 .x1024 {
     background-color: #eec744;
     color: white;
 }
-
 
 
 .x2048 {
@@ -115,15 +116,9 @@ hr {
 }
 
 
-
 .x4096 {
     background-color: #fe3d3d;
     color: white;
 }
 
 
-
-.x8192 {
-    background-color: #ff2020;
-    color: white;
-}
